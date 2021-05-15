@@ -11,44 +11,44 @@
 
 <script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
 <title>TIA &#8211; Architecture Design</title>
-<link rel="icon" type="image/png" href="/waimarie-master//images/favicon.png"/>
+<link rel="icon" type="image/png" href="/images/favicon.png"/>
 
 <link rel='dns-prefetch' href='http://s.w.org/' />
 <link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
 
-<link rel='stylesheet' id='wp-block-library-css'  href="/waimarie-master/wp-includes/css/dist/block-library/style.min7e15.css?ver=5.5.4" type='text/css' media='all' />
-<!-- <link rel='stylesheet' id='wp-block-library-theme-css'  href='/waimarie-master/wp-includes/css/dist/block-library/theme.min7e15.css?ver=5.5.4' type='text/css' media='all' /> -->
-<!-- <link rel='stylesheet' id='wc-block-vendors-style-css'  href='/waimarie-master/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style324d.css?ver=3.1.0' type='text/css' media='all' /> -->
-<link rel='stylesheet' id='wc-block-style-css'  href='/waimarie-master/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style324d.css?ver=3.1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='jquery-selectBox-css'  href='/waimarie-master/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox7359.css?ver=1.2.0' type='text/css' media='all' />
-<link rel='stylesheet' id='yith-wcwl-font-awesome-css'  href='/waimarie-master/wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' type='text/css' media='all' />
-<link rel='stylesheet' id='yith-wcwl-main-css'  href='/waimarie-master/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style2a45.css?ver=3.0.13' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href="wp-includes/css/dist/block-library/style.min7e15.css?ver=5.5.4" type='text/css' media='all' />
+<!-- <link rel='stylesheet' id='wp-block-library-theme-css'  href='wp-includes/css/dist/block-library/theme.min7e15.css?ver=5.5.4' type='text/css' media='all' /> -->
+<!-- <link rel='stylesheet' id='wc-block-vendors-style-css'  href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style324d.css?ver=3.1.0' type='text/css' media='all' /> -->
+<link rel='stylesheet' id='wc-block-style-css'  href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style324d.css?ver=3.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-selectBox-css'  href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox7359.css?ver=1.2.0' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcwl-font-awesome-css'  href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='yith-wcwl-main-css'  href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/style2a45.css?ver=3.0.13' type='text/css' media='all' />
 <style id='yith-wcwl-main-inline-css' type='text/css'>
 .yith-wcwl-share li a{color: #FFFFFF;}.yith-wcwl-share li a:hover{color: #FFFFFF;}.yith-wcwl-share a.facebook{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.facebook:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.twitter{background: #45AFE2; background-color: #45AFE2;}.yith-wcwl-share a.twitter:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.pinterest{background: #AB2E31; background-color: #AB2E31;}.yith-wcwl-share a.pinterest:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.email{background: #FBB102; background-color: #FBB102;}.yith-wcwl-share a.email:hover{background: #39599E; background-color: #39599E;}.yith-wcwl-share a.whatsapp{background: #00A901; background-color: #00A901;}.yith-wcwl-share a.whatsapp:hover{background: #39599E; background-color: #39599E;}
 </style>
-<link rel='stylesheet' id='contact-form-7-css'  href='/waimarie-master/wp-content/plugins/contact-form-7/includes/css/stylesbb49.css?ver=5.2.2' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-layout-css'  href='/waimarie-master/wp-content/plugins/woocommerce/assets/css/woocommerce-layout268f.css?ver=4.5.0' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='/waimarie-master/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen268f.css?ver=4.5.0' type='text/css' media='only screen and (max-width: 768px)' />
-<link rel='stylesheet' id='woocommerce-general-css'  href='/waimarie-master/wp-content/plugins/woocommerce/assets/css/woocommerce268f.css?ver=4.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='wp-content/plugins/contact-form-7/includes/css/stylesbb49.css?ver=5.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='wp-content/plugins/woocommerce/assets/css/woocommerce-layout268f.css?ver=4.5.0' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen268f.css?ver=4.5.0' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='wp-content/plugins/woocommerce/assets/css/woocommerce268f.css?ver=4.5.0' type='text/css' media='all' />
 <style id='woocommerce-inline-inline-css' type='text/css'>
 .woocommerce form .form-row .required { visibility: visible; }
 </style>
-<link rel='stylesheet' id='ce-style-css'  href='/waimarie-master/wp-content/plugins/codeless-elements/assets/css/codeless-elements8a54.css?ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-animations-css'  href='/waimarie-master/wp-content/plugins/elementor/assets/lib/animations/animations.min7c45.css?ver=3.0.6' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='/waimarie-master/wp-content/plugins/elementor/assets/css/frontend-legacy.min7c45.css?ver=3.0.6' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-frontend-css'  href='/waimarie-master/wp-content/plugins/elementor/assets/css/frontend.min7c45.css?ver=3.0.6' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-1333-css'  href='/waimarie-master/wp-content/uploads/elementor/css/post-133329d7.css?ver=1599730834' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-508-css'  href='/waimarie-master/wp-content/uploads/elementor/css/post-5083148.css?ver=1600695637' type='text/css' media='all' />
-<link rel='stylesheet' id='ce-widgets-style-css'  href='/waimarie-master/wp-content/plugins/codeless-elements/inc/widgets-css/frontend8a54.css?ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-1465-css'  href='/waimarie-master/wp-content/uploads/elementor/css/post-146561e7.css?ver=1601544267' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-1477-css'  href='/waimarie-master/wp-content/uploads/elementor/css/post-1477559a.css?ver=1599554980' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css'  href='/waimarie-master/wp-content/plugins/woocommerce/assets/css/prettyPhoto7e15.css?ver=5.5.4' type='text/css' media='all' />
-<link rel='stylesheet' id='bootstrap-css'  href='/waimarie-master/wp-content/themes/remake/css/bootstrap7e15.css?ver=5.5.4' type='text/css' media='all' />
-<link rel='stylesheet' id='codeless-style-css'  href='/waimarie-master/wp-content/themes/remake/style7e15.css?ver=5.5.4' type='text/css' media='all' />
-<link rel='stylesheet' id='codeless-theme-css'  href='/waimarie-master/wp-content/themes/remake/css/theme.min7e15.css?ver=5.5.4' type='text/css' media='all' />
-<link rel='stylesheet' id='feather-css'  href='/waimarie-master/wp-content/themes/remake/css/feather8a54.css?ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='codeless-remake-icons-css'  href='/waimarie-master/wp-content/themes/remake/css/codeless-remake-icons8a54.css?ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='codeless-dynamic-css'  href='/waimarie-master/wp-content/themes/remake/css/codeless-dynamic7e15.css?ver=5.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='ce-style-css'  href='wp-content/plugins/codeless-elements/assets/css/codeless-elements8a54.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='wp-content/plugins/elementor/assets/lib/animations/animations.min7c45.css?ver=3.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='wp-content/plugins/elementor/assets/css/frontend-legacy.min7c45.css?ver=3.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='wp-content/plugins/elementor/assets/css/frontend.min7c45.css?ver=3.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1333-css'  href='wp-content/uploads/elementor/css/post-133329d7.css?ver=1599730834' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-508-css'  href='wp-content/uploads/elementor/css/post-5083148.css?ver=1600695637' type='text/css' media='all' />
+<link rel='stylesheet' id='ce-widgets-style-css'  href='wp-content/plugins/codeless-elements/inc/widgets-css/frontend8a54.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1465-css'  href='wp-content/uploads/elementor/css/post-146561e7.css?ver=1601544267' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-1477-css'  href='wp-content/uploads/elementor/css/post-1477559a.css?ver=1599554980' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css'  href='wp-content/plugins/woocommerce/assets/css/prettyPhoto7e15.css?ver=5.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='wp-content/themes/remake/css/bootstrap7e15.css?ver=5.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='codeless-style-css'  href='wp-content/themes/remake/style7e15.css?ver=5.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='codeless-theme-css'  href='wp-content/themes/remake/css/theme.min7e15.css?ver=5.5.4' type='text/css' media='all' />
+<link rel='stylesheet' id='feather-css'  href='wp-content/themes/remake/css/feather8a54.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='codeless-remake-icons-css'  href='wp-content/themes/remake/css/codeless-remake-icons8a54.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='codeless-dynamic-css'  href='wp-content/themes/remake/css/codeless-dynamic7e15.css?ver=5.5.4' type='text/css' media='all' />
 <style id='codeless-dynamic-inline-css' type='text/css'>
 
 	 .select2-container--default .select2-results__option--highlighted[aria-selected]{ background-color: #ff6422 !important; color:#fff !important } 
@@ -154,7 +154,7 @@
 @media (min-width:992px){
 .section_with_arrows .elementor-container:before{
 		content: "";
-    background: url(/waimarie-master/wp-content/uploads/2020/09/Arrow-2.png) center no-repeat;
+    background: url(wp-content/uploads/2020/09/Arrow-2.png) center no-repeat;
     position: absolute;
     width: 232px;
     height: 40px;
@@ -164,7 +164,7 @@
 
 .section_with_arrows .elementor-container:after{
 		content: "";
-    background: url(/waimarie-master/wp-content/uploads/2020/09/Arrow-2.png) center no-repeat;
+    background: url(wp-content/uploads/2020/09/Arrow-2.png) center no-repeat;
     position: absolute;
     width: 232px;
     height: 40px;
@@ -227,26 +227,26 @@
 
 	
 </style>
-<link rel='stylesheet' id='woo-variation-swatches-css'  href='/waimarie-master/wp-content/plugins/woo-variation-swatches/assets/css/frontend.minf0d3.css?ver=1.0.85' type='text/css' media='all' />
+<link rel='stylesheet' id='woo-variation-swatches-css'  href='wp-content/plugins/woo-variation-swatches/assets/css/frontend.minf0d3.css?ver=1.0.85' type='text/css' media='all' />
 <style id='woo-variation-swatches-inline-css' type='text/css'>
 .variable-item:not(.radio-variable-item) { width : 30px; height : 30px; } .wvs-style-squared .button-variable-item { min-width : 30px; } .button-variable-item span { font-size : 16px; }
 </style>
-<link rel='stylesheet' id='woo-variation-swatches-theme-override-css'  href='/waimarie-master/wp-content/plugins/woo-variation-swatches/assets/css/wvs-theme-override.minf0d3.css?ver=1.0.85' type='text/css' media='all' />
-<link rel='stylesheet' id='woo-variation-swatches-tooltip-css'  href='/waimarie-master/wp-content/plugins/woo-variation-swatches/assets/css/frontend-tooltip.minf0d3.css?ver=1.0.85' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-icons-shared-1-css'  href='/waimarie-master/wp-content/themes/remake/css/feather8a54.css?ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-icons-feather-css'  href='/waimarie-master/wp-content/themes/remake/css/feather8a54.css?ver=1.0.0' type='text/css' media='all' />
-<script type='text/javascript' src='/waimarie-master/wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<link rel='stylesheet' id='woo-variation-swatches-theme-override-css'  href='wp-content/plugins/woo-variation-swatches/assets/css/wvs-theme-override.minf0d3.css?ver=1.0.85' type='text/css' media='all' />
+<link rel='stylesheet' id='woo-variation-swatches-tooltip-css'  href='wp-content/plugins/woo-variation-swatches/assets/css/frontend-tooltip.minf0d3.css?ver=1.0.85' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-1-css'  href='wp-content/themes/remake/css/feather8a54.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-feather-css'  href='wp-content/themes/remake/css/feather8a54.css?ver=1.0.0' type='text/css' media='all' />
+<script type='text/javascript' src='wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp' id='jquery-core-js'></script>
 
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/codeless-elements/assets/js/ce-global8a54.js?ver=1.0.0' id='ce-global-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-content/themes/remake/js/pace.min7e15.js?ver=5.5.4' id='pace-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
+<script type='text/javascript' src='wp-content/plugins/codeless-elements/assets/js/ce-global8a54.js?ver=1.0.0' id='ce-global-js'></script>
+<script type='text/javascript' src='wp-content/themes/remake/js/pace.min7e15.js?ver=5.5.4' id='pace-js'></script>
+<script type='text/javascript' src='wp-includes/js/imagesloaded.mineda1.js?ver=4.1.4' id='imagesloaded-js'></script>
 <script type='text/javascript' id='codeless-main-js-extra'>
 /* <![CDATA[ */
 var codeless_global = {"ajax_url":"https:\/\/remake.codeless.co\/wp-admin\/admin-ajax.php","FRONT_LIB_JS":"https:\/\/remake.codeless.co\/wp-content\/themes\/remake\/js\/","FRONT_LIB_CSS":"https:\/\/remake.codeless.co\/wp-content\/themes\/remake\/css\/","postSwiperOptions":{"effect":"scroll","lazyLoading":false,"autoplay":"","loop":false,"autoHeight":true,"pagination":{"el":".swiper-pagination","type":"fraction"},"paginationClickable":true,"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev"}},"cl_btn_classes":"cl-btn btn-style-rounded btn-effect-default","cursorColor":"#000000","is_customize_preview":""};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/waimarie-master/wp-content/themes/remake/js/codeless-main7e15.js?ver=5.5.4' id='codeless-main-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-content/themes/remake/js/bowser.min7e15.js?ver=5.5.4' id='bowser-js'></script>
+<script type='text/javascript' src='wp-content/themes/remake/js/codeless-main7e15.js?ver=5.5.4' id='codeless-main-js'></script>
+<script type='text/javascript' src='wp-content/themes/remake/js/bowser.min7e15.js?ver=5.5.4' id='bowser-js'></script>
 				<style type="text/css">
 					@font-face { font-family:Sporting Grotesque;src:url(https://remake.codeless.co/wp-content/uploads/2020/06/SportingGrotesque-Regular.otf) format('opentype');font-display: auto;}				</style>
 					<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
@@ -370,7 +370,7 @@ var codeless_global = {"ajax_url":"https:\/\/remake.codeless.co\/wp-admin\/admin
 													<a data-elementor-open-lightbox=""  class='elementor-clickable' href="https://remake.codeless.co/">
 							<div class="ce-site-logo-set">           
 				<div class="ce-site-logo-container">
-					<img class="ce-site-logo-img elementor-animation- logo-style"  src="/waimarie-master/images/tialogo.png" alt="site-logo"/>
+					<img class="ce-site-logo-img elementor-animation- logo-style"  src="images/tialogo.png" alt="site-logo"/>
 				</div>
 			</div>
 							</a>
@@ -446,49 +446,49 @@ var codeless_global = {"ajax_url":"https:\/\/remake.codeless.co\/wp-admin\/admin
                 <div class="slide-title " data-id="8"><a href="https://remake.codeless.co/portfolio/askul/"><span>Test H</span></a></div>
 
                             
-                <a href="/works" class="all-works">see all works</a>
+                <a href="/works.php" class="all-works">see all works</a>
                 </div>
             </div>  
 
             <div class="images-wrapper">
                 
                     <div class="slide-img active">
-						<img loading="lazy" src="/waimarie-master/images/1.jpg" alt="slide alt" />
+						<img loading="lazy" src="images/1.jpg" alt="slide alt" />
 						<a href="#" class="image-link"></a>
                         <div class="cl-load-vortex"></div>
                     </div>
                                         <div class="slide-img ">
-						<img loading="lazy" src="/waimarie-master/images/2.jpg" alt="slide alt" />
+						<img loading="lazy" src="images/2.jpg" alt="slide alt" />
 						<a href="#" class="image-link"></a>
                         <div class="cl-load-vortex"></div>
                     </div>
                                         <div class="slide-img ">
-						<img loading="lazy" src="/waimarie-master/images/3.jpg" alt="slide alt" />
+						<img loading="lazy" src="images/3.jpg" alt="slide alt" />
 						<a href="#" class="image-link"></a>
                         <div class="cl-load-vortex"></div>
                     </div>
                                         <div class="slide-img ">
-						<img loading="lazy" src="/waimarie-master/images/4.jpg" alt="slide alt" />
+						<img loading="lazy" src="images/4.jpg" alt="slide alt" />
 						<a href="#" class="image-link"></a>
                         <div class="cl-load-vortex"></div>
                     </div>
                                         <div class="slide-img ">
-						<img loading="lazy" src="/waimarie-master/images/5.jpg" alt="slide alt" />
+						<img loading="lazy" src="images/5.jpg" alt="slide alt" />
 						<a href="#" class="image-link"></a>
                         <div class="cl-load-vortex"></div>
                     </div>
                                         <div class="slide-img ">
-						<img loading="lazy" src="/waimarie-master/images/6.jpg" alt="slide alt" />
+						<img loading="lazy" src="images/6.jpg" alt="slide alt" />
 						<a href="#" class="image-link"></a>
                         <div class="cl-load-vortex"></div>
                     </div>
                                         <div class="slide-img ">
-						<img loading="lazy" src="/waimarie-master/images/7.jpg" alt="slide alt" />
+						<img loading="lazy" src="images/7.jpg" alt="slide alt" />
 						<a href="#" class="image-link"></a>
                         <div class="cl-load-vortex"></div>
                     </div>
                                         <div class="slide-img ">
-						<img loading="lazy" src="/waimarie-master/images/8.jpg" alt="slide alt" />
+						<img loading="lazy" src="images/8.jpg" alt="slide alt" />
 						<a href="#" class="image-link"></a>
                         <div class="cl-load-vortex"></div>
                     </div>
@@ -594,47 +594,47 @@ var codeless_global = {"ajax_url":"https:\/\/remake.codeless.co\/wp-admin\/admin
 var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/remake.codeless.co\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min268f.js?ver=4.5.0' id='wc-add-to-cart-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js?ver=2.1.4' id='js-cookie-js'></script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min268f.js?ver=4.5.0' id='wc-add-to-cart-js'></script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js?ver=2.1.4' id='js-cookie-js'></script>
 <script type='text/javascript' id='woocommerce-js-extra'>
 /* <![CDATA[ */
 var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min268f.js?ver=4.5.0' id='woocommerce-js'></script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min268f.js?ver=4.5.0' id='woocommerce-js'></script>
 <script type='text/javascript' id='wc-cart-fragments-js-extra'>
 /* <![CDATA[ */
 var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_230995eab4ddb98fa437837c1d1549e4","fragment_name":"wc_fragments_230995eab4ddb98fa437837c1d1549e4","request_timeout":"5000"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min268f.js?ver=4.5.0' id='wc-cart-fragments-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min005e.js?ver=3.1.6' id='prettyPhoto-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-includes/js/underscore.min4511.js?ver=1.8.3' id='underscore-js'></script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min268f.js?ver=4.5.0' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/swiper/swiper.min48f5.js?ver=5.3.6' id='swiper-js'></script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min005e.js?ver=3.1.6' id='prettyPhoto-js'></script>
+<script type='text/javascript' src='wp-includes/js/underscore.min4511.js?ver=1.8.3' id='underscore-js'></script>
 <script type='text/javascript' id='wp-util-js-extra'>
 /* <![CDATA[ */
 var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/waimarie-master/wp-includes/js/wp-util.min7e15.js?ver=5.5.4' id='wp-util-js'></script>
+<script type='text/javascript' src='wp-includes/js/wp-util.min7e15.js?ver=5.5.4' id='wp-util-js'></script>
 <script type='text/javascript' id='woo-variation-swatches-js-extra'>
 /* <![CDATA[ */
 var woo_variation_swatches_options = {"is_product_page":""};
 /* ]]> */
 </script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/woo-variation-swatches/assets/js/frontend.minf0d3.js?ver=1.0.85' id='woo-variation-swatches-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-includes/js/wp-embed.min7e15.js?ver=5.5.4' id='wp-embed-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/codeless-elements/inc/js/ce-nav-menu8a54.js?ver=1.0.0' id='ce-nav-menu-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/codeless-elements/inc/js/ce-hudson-slider8a54.js?ver=1.0.0' id='ce-hudson-slider-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/elementor/assets/js/frontend-modules.min7c45.js?ver=3.0.6' id='elementor-frontend-modules-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-includes/js/jquery/ui/position.mine899.js?ver=1.11.4' id='jquery-ui-position-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js?ver=4.8.1' id='elementor-dialog-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2' id='elementor-waypoints-js'></script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/elementor/assets/lib/share-link/share-link.min7c45.js?ver=3.0.6' id='share-link-js'></script>
+<script type='text/javascript' src='wp-content/plugins/woo-variation-swatches/assets/js/frontend.minf0d3.js?ver=1.0.85' id='woo-variation-swatches-js'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min7e15.js?ver=5.5.4' id='wp-embed-js'></script>
+<script type='text/javascript' src='wp-content/plugins/codeless-elements/inc/js/ce-nav-menu8a54.js?ver=1.0.0' id='ce-nav-menu-js'></script>
+<script type='text/javascript' src='wp-content/plugins/codeless-elements/inc/js/ce-hudson-slider8a54.js?ver=1.0.0' id='ce-hudson-slider-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend-modules.min7c45.js?ver=3.0.6' id='elementor-frontend-modules-js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/position.mine899.js?ver=1.11.4' id='jquery-ui-position-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/dialog/dialog.mina288.js?ver=4.8.1' id='elementor-dialog-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min05da.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/lib/share-link/share-link.min7c45.js?ver=3.0.6' id='share-link-js'></script>
 <script type='text/javascript' id='elementor-frontend-js-before'>
 var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.6","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"https:\/\/remake.codeless.co\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":508,"title":"Hudson%20%E2%80%93%20Remake%20WordPress%20Theme","excerpt":"","featuredImage":false}};
 </script>
-<script type='text/javascript' src='/waimarie-master/wp-content/plugins/elementor/assets/js/frontend.min7c45.js?ver=3.0.6' id='elementor-frontend-js'></script>
+<script type='text/javascript' src='wp-content/plugins/elementor/assets/js/frontend.min7c45.js?ver=3.0.6' id='elementor-frontend-js'></script>
 
 </body>
 

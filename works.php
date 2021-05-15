@@ -13,18 +13,18 @@
     <title>TIA &#8211; Architecture Design</title>
 
     <!-- Favicons:: Replace with yours -->
-    <link rel="icon" type="image/png" href="/waimarie-master/images/favicon.png"/>
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
 
     <!-- Stylesheets and Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Anaheim%7CQuattrocento+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/waimarie-master/css/foundation.min.css" />
-    <link rel="stylesheet" href="/waimarie-master/css/app.min.css" />
-    <link rel="stylesheet" href="/waimarie-master/css/icomoon.css" />
-    <link rel="stylesheet" id="default" href="/waimarie-master/css/colors/colors.css" />
-    <link rel="stylesheet" href="/waimarie-master/css/responsive.css" />
+    <link rel="stylesheet" href="css/foundation.min.css" />
+    <link rel="stylesheet" href="css/app.min.css" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" id="default" href="css/colors/colors.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
 
     <!-- Scripts -->
-    <script src="/waimarie-master/js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/jquery.min.js"></script>
    
   </head>
 
@@ -34,8 +34,8 @@
 
     <div class="sideBar">
     <div id="logo" style="border-bottom: 1px solid #e7e7e7;">
-        <a href="/" class="sd-logo"><img src="/waimarie-master/images/tialogobox.png" alt="tia"></a>
-        <a href="/" class="hd-logo"><img src="/waimarie-master/images/tialogobox.png" alt="tia"></a>
+        <a href="/" class="sd-logo"><img src="images/tialogobox.png" alt="tia"></a>
+        <a href="/" class="hd-logo"><img src="images/tialogobox.png" alt="tia"></a>
       </div>
 
       <div id="menuIcon">
@@ -45,7 +45,7 @@
       </div>
     </div>
 
-    <div class="menuOverlay relPosition" style="background-image: url('/waimarie-master//waimarie-master/img/menu-background-img.jpg');background-position: 50% 50%;">
+    <div class="menuOverlay relPosition" style="background-image: url('img/menu-background-img.jpg');background-position: 50% 50%;">
    
     <div class="menuWrapper">
 
@@ -108,7 +108,7 @@
               <!-- Gallery Item 01-->
               <li class="gallery-item development branding">
                 <a href="#" class="relPosition">
-                  <img src="/waimarie-master/img/portfolio/masonry/thumb-masonry-tall-1.jpg" alt="">
+                  <img src="img/portfolio/masonry/thumb-masonry-tall-1.jpg" alt="">
                   <div class="imageHover">
                     <div class="itemDesc">
                       <p>Project Title One</p>
@@ -121,7 +121,7 @@
               <!-- Gallery Item 02 -->
               <li class="gallery-item branding webdesign">
                 <a href="#" class="relPosition">
-                  <img src="/waimarie-master/img/portfolio/masonry/thumb-masonry-1.jpg" alt="Gallery Item">
+                  <img src="img/portfolio/masonry/thumb-masonry-1.jpg" alt="Gallery Item">
                   <div class="imageHover">
                     <div class="itemDesc">
                       <p>Project Title Two</p>
@@ -134,7 +134,7 @@
               <!-- Gallery Item 03 -->
               <li class="gallery-item ux-ui">
                 <a href="#" class="relPosition">
-                  <img src="/waimarie-master/img/portfolio/masonry/thumb-masonry-2.jpg" alt="Gallery Item">
+                  <img src="img/portfolio/masonry/thumb-masonry-2.jpg" alt="Gallery Item">
                   <div class="imageHover">
                     <div class="itemDesc">
                       <p>Project Title Three</p>
@@ -147,7 +147,7 @@
               <!-- Gallery Item 04 -->
               <li class="gallery-item webdesign ux-ui">
                 <a href="#" class="relPosition">
-                  <img src="/waimarie-master/img/portfolio/masonry/thumb-masonry-tall-2.jpg" alt="Gallery Item">
+                  <img src="img/portfolio/masonry/thumb-masonry-tall-2.jpg" alt="Gallery Item">
                   <div class="imageHover">
                     <div class="itemDesc">
                       <p>Project Title Four</p>
@@ -160,7 +160,7 @@
               <!-- Gallery Item 05 -->
               <li class="gallery-item webdesign development">
                 <a href="#" class="relPosition">
-                  <img src="/waimarie-master/img/portfolio/masonry/thumb-masonry-3.jpg" alt="Gallery Item">
+                  <img src="img/portfolio/masonry/thumb-masonry-3.jpg" alt="Gallery Item">
                   <div class="imageHover">
                     <div class="itemDesc">
                       <p>Project Title Five</p>
@@ -173,7 +173,7 @@
               <!-- Gallery Item 06 -->
               <li class="gallery-item development">
                 <a href="#" class="relPosition">
-                  <img src="/waimarie-master/img/portfolio/masonry/thumb-masonry-4.jpg" alt="Gallery Item">
+                  <img src="img/portfolio/masonry/thumb-masonry-4.jpg" alt="Gallery Item">
                   <div class="imageHover">
                     <div class="itemDesc">
                       <p>Project Title Six</p>
@@ -186,7 +186,7 @@
               <!-- Gallery Item 07 -->
               <li class="gallery-item webdesign">
                 <a href="#" class="relPosition">
-                  <img src="/waimarie-master/img/portfolio/masonry/thumb-masonry-tall-3.jpg" alt="Gallery Item">
+                  <img src="img/portfolio/masonry/thumb-masonry-tall-3.jpg" alt="Gallery Item">
                   <div class="imageHover">
                     <div class="itemDesc">
                       <p>Project Title Seven</p>
@@ -199,7 +199,7 @@
               <!-- Gallery Item 08 -->
               <li class="gallery-item branding webdesign">
                 <a href="#" class="relPosition">
-                  <img src="/waimarie-master/img/portfolio/masonry/thumb-masonry-5.jpg" alt="Gallery Item">
+                  <img src="img/portfolio/masonry/thumb-masonry-5.jpg" alt="Gallery Item">
                   <div class="imageHover">
                     <div class="itemDesc">
                       <p>Project Title Eight</p>
@@ -212,7 +212,7 @@
               <!-- Gallery Item 09 -->
               <li class="gallery-item development branding ux-ui">
                 <a href="#" class="relPosition">
-                  <img src="/waimarie-master/img/portfolio/masonry/thumb-masonry-6.jpg" alt="Gallery Item">
+                  <img src="img/portfolio/masonry/thumb-masonry-6.jpg" alt="Gallery Item">
                   <div class="imageHover">
                     <div class="itemDesc">
                       <p>Project Title Nine</p>
@@ -316,7 +316,7 @@
         <div class="small-12 medium-4 columns">
           <div class="testimonial-1">
             <div class="testimonImg imgShadow">
-              <img src="/waimarie-master/img/testimonials/testimonial-thumb-1.jpg" alt="Customer Testimonial">
+              <img src="img/testimonials/testimonial-thumb-1.jpg" alt="Customer Testimonial">
             </div>
             <div class="testimonMeta">
               Paul B.
@@ -331,7 +331,7 @@
         <div class="small-12 medium-4 columns">
           <div class="testimonial-1">
             <div class="testimonImg imgShadow">
-              <img src="/waimarie-master/img/testimonials/testimonial-thumb-2.jpg" alt="Customer Testimonial">
+              <img src="img/testimonials/testimonial-thumb-2.jpg" alt="Customer Testimonial">
             </div>
             <div class="testimonMeta">
               Jane K.
@@ -346,7 +346,7 @@
         <div class="small-12 medium-4 columns">
           <div class="testimonial-1">
             <div class="testimonImg imgShadow">
-              <img src="/waimarie-master/img/testimonials/testimonial-thumb-3.jpg" alt="Customer Testimonial">
+              <img src="img/testimonials/testimonial-thumb-3.jpg" alt="Customer Testimonial">
             </div>
             <div class="testimonMeta">
               Andrew G.
@@ -398,13 +398,13 @@
     </div>
     <!-- Main Wrapper End -->
 
-    <script src="/waimarie-master/js/vendor/what-input.min.js"></script>
-    <script src="/waimarie-master/js/foundation.min.js"></script>
-    <script src="/waimarie-master/js/plugins.js"></script>
-    <script src="/waimarie-master/js/parallaxify.js"></script>
-    <script src="/waimarie-master/js/app.js"></script>
-    <script src="/waimarie-master/js/vendor/jquery.cookie.js"></script>
-    <script src="/waimarie-master/s/style-switcher.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/parallaxify.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/vendor/jquery.cookie.js"></script>
+    <script src="s/style-switcher.js"></script>
 
     <script>new Parallaxify().registerUpdate()</script>
     

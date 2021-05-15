@@ -80,6 +80,10 @@
 				.ce-hudson-slider .title-wrapper .slide-title a span{
 					text-transform: capitalize;
 				}	
+				.elementor-1465 .elementor-element.elementor-element-114bfc0 .menu-item a.ce-menu-item, 
+				.elementor-1465 .elementor-element.elementor-element-114bfc0 .sub-menu a.ce-sub-menu-item{
+					font-size: 35px !important;
+				}
 					
 		  
 .dark-services-block > .row{
@@ -196,7 +200,7 @@
 }
 
 .clients_centered .gallery-item{
-		justify-content: center;
+	justify-content: center;
     height: 150px;
     align-items: center;
     display: flex;
@@ -348,9 +352,10 @@ var codeless_global = {"ajax_url":"https:\/\/remake.codeless.co\/wp-admin\/admin
 </ul>
 </nav>
 							<div class="elementor-clickable ce-flyout-close" tabindex="0">
-																	<i class="feather  feather-x" aria-hidden="true"></i>
-															</div>
+								<i class="feather  feather-x" aria-hidden="true"></i>
 							</div>
+							
+						</div>
 								
 						</div>
 					</div>
@@ -422,28 +427,28 @@ var codeless_global = {"ajax_url":"https:\/\/remake.codeless.co\/wp-admin\/admin
             <div class="title-wrapper">
                 <div class="inner">
             
-                <div class="slide-title active" data-id="1"><a href="https://remake.codeless.co/portfolio/askul/"><span>Test A</span></a></div>
+                <div class="slide-title active" data-id="1"><a href="https://remake.codeless.co/portfolio/askul/"><span>Architecture and Interior Design 1</span></a></div>
 
                 
-                <div class="slide-title " data-id="2"><a href="https://remake.codeless.co/portfolio/askul/"><span>Test B</span></a></div>
+                <div class="slide-title " data-id="2"><a href="https://remake.codeless.co/portfolio/askul/"><span>Architecture and Interior Design 2</span></a></div>
 
                 
-                <div class="slide-title " data-id="3"><a href="https://remake.codeless.co/portfolio/askul/"><span>Test C</span></a></div>
+                <div class="slide-title " data-id="3"><a href="https://remake.codeless.co/portfolio/askul/"><span>Architecture and Interior Design 3</span></a></div>
 
                 
-                <div class="slide-title " data-id="4"><a href="https://remake.codeless.co/portfolio/askul/"><span>Test D</span></a></div>
+                <div class="slide-title " data-id="4"><a href="https://remake.codeless.co/portfolio/askul/"><span>Architecture and Interior Design 4</span></a></div>
 
                 
-                <div class="slide-title " data-id="5"><a href="https://remake.codeless.co/portfolio/askul/"><span>Test E</span></a></div>
+                <div class="slide-title " data-id="5"><a href="https://remake.codeless.co/portfolio/askul/"><span>Architecture and Interior Design 5</span></a></div>
 
                 
-                <div class="slide-title " data-id="6"><a href="https://remake.codeless.co/portfolio/askul/"><span>Test F</span></a></div>
+                <div class="slide-title " data-id="6"><a href="https://remake.codeless.co/portfolio/askul/"><span>Architecture and Interior Design 6</span></a></div>
 
                 
-                <div class="slide-title " data-id="7"><a href="https://remake.codeless.co/portfolio/askul/"><span>Test G</span></a></div>
+                <div class="slide-title " data-id="7"><a href="https://remake.codeless.co/portfolio/askul/"><span>Architecture and Interior Design 7</span></a></div>
 
                 
-                <div class="slide-title " data-id="8"><a href="https://remake.codeless.co/portfolio/askul/"><span>Test H</span></a></div>
+                <div class="slide-title " data-id="8"><a href="https://remake.codeless.co/portfolio/askul/"><span>Architecture and Interior Design 8</span></a></div>
 
                             
                 <a href="/works.php" class="all-works">see all works</a>
@@ -553,7 +558,10 @@ var codeless_global = {"ajax_url":"https:\/\/remake.codeless.co\/wp-admin\/admin
 							<div class="elementor-widget-wrap">
 						<div class="elementor-element elementor-element-9cdfd2a elementor-widget__width-auto elementor-widget elementor-widget-wp-widget-nav_menu" data-id="9cdfd2a" data-element_type="widget" data-widget_type="wp-widget-nav_menu.default">
 				<div class="elementor-widget-container">
-			<div class="menu-footer-socials-container"><ul id="menu-footer-socials-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1178"><a href="/pasanu.com">Powered by Pasanu</a></li>
+			<div class="menu-footer-socials-container"><ul id="menu-footer-socials-1" class="menu">
+			<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1178"><a href="#">Facebook</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1179"><a href="#">Instagram</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1180"><a href="#">Twitter</a></li>
 </ul></div>		</div>
 				</div>
 						</div>
